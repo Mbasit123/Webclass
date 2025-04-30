@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navigation from '../Navbar'
 import Two from '../2'
 import Three from '../../3'
@@ -10,7 +10,10 @@ import Footer from '../../Footer'
 import build from '../../build.avif'
 
 
+
 const Index = () => {
+
+  const [name, setName] = useState("name")
   return (
     <div>
        <Navigation/>
